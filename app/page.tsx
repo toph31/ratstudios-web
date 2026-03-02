@@ -137,7 +137,7 @@ export default function Home() {
               </h2>
               <p className="text-lg mb-4" style={{ color: "var(--color-slate)" }}>
                 RaT Studios is a product studio founded by Richard Ashcraft and Topher Sorenson — 
-                an optometrist and a technologist who kept having the same conversation: 
+                a healthcare operations veteran and a technologist who kept having the same conversation: 
                 <em> "why doesn't software exist for this?"</em>
               </p>
               <p className="mb-4" style={{ color: "var(--color-slate)" }}>
