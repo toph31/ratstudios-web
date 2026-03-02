@@ -115,17 +115,12 @@ export default function Home() {
           </div>
 
           {/* Future products teaser */}
-          <div className="mt-6 grid md:grid-cols-2 gap-6">
-            {["Eyecare Practice Tools", "Coming Soon"].map((name, i) => (
-              <div key={i} className="bg-white rounded-3xl p-8 border border-black/5 border-dashed opacity-50">
-                <div className="w-10 h-10 rounded-xl mb-4 flex items-center justify-center text-xl"
-                  style={{ background: "var(--color-cream)" }}>
-                  {i === 0 ? "👁️" : "🚀"}
-                </div>
-                <h3 className="font-bold text-lg mb-2" style={{ color: "var(--color-dark)" }}>{name}</h3>
-                <p className="text-sm" style={{ color: "var(--color-slate)" }}>In exploration. More coming from RaT Studios.</p>
-              </div>
-            ))}
+          <div className="mt-6">
+            <div className="bg-white rounded-3xl p-8 border border-black/5 border-dashed opacity-50 text-center">
+              <p className="text-3xl mb-3">🚀</p>
+              <h3 className="font-bold text-lg mb-2" style={{ color: "var(--color-dark)" }}>More Coming</h3>
+              <p className="text-sm" style={{ color: "var(--color-slate)" }}>We build in niches that deserve better tools. More products coming from RaT Studios.</p>
+            </div>
           </div>
         </div>
       </section>
